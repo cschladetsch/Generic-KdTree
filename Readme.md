@@ -14,3 +14,6 @@ Any time you want to find a set of nearest neighbors in a set of N-dimensional p
 
 The tests live in the folder `tests` and use NUnit 3.
 
+## TODO
+
+Stop being lazy and provide a cross-platform *CMake* build system.
