@@ -1,6 +1,5 @@
 #pragma once
 
-#include <vector>
 #include <array>
 #include <assert.h>
 #include <type_traits>
