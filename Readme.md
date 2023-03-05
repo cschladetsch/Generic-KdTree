@@ -24,4 +24,4 @@ The tests live in the folder `tests` and use Catch3.
 
 ## Todo
 
-Stop being lazy and provide a cross-platform *CMake* build system.
+Always - always - more tests. Also haven't tested on Ubuntu, but have with VS2019, VS2022, VS Code on Mac and PC.
