@@ -5,7 +5,7 @@ christian.schladetsch@gmail.com
 ## Inrtroduction
 
 A genertic implementation of an N-dimensional KDTree with any node type that is a model of [StrictWeakOrdering.
-A genertic implementation of an N-dimensional KDTree with any node type that is a model of [StrictWeakOrdering]().
+A genertic implementation of an N-dimensional KDTree with any node type that is a model of [StrictWeakOrdering](https://en.cppreference.com/w/cpp/concepts/strict_weak_order).
 
 ## Use Cases
 
