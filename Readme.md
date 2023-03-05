@@ -24,6 +24,9 @@ The tests live in the folder `tests` and use Catch3.
 
 ## Todo
 
-Always - always - more tests. Also haven't tested on Ubuntu, but have with VS2019, VS2022, VS Code on Mac and PC.
+Always things to do, right?
 
-There is no memory management. Just have to change KdTree<Ty,N>::NodePtr to be a std::shared_ptr.
+* Always - always - more tests. Also haven't tested on Ubuntu, but have with VS2019, VS2022, VS Code on Mac and PC.
+* There is no memory management. Just have to change KdTree<Ty,N>::NodePtr to be a std::shared_ptr<Node>.
+* Add `remove` method.
+* Add iteration over all Nodes.
