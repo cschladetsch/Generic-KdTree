@@ -87,7 +87,7 @@ private:
         }
     }
 
-    constexpr array<Ty, Dim> array_from_initializer_list(initializer_list<Ty> l) {
+    constexpr array<Ty, Dim> array_from_initializer_list(std::initializer_list<Ty> l) {
         assert(l.size() == N);
         std::array<Ty, Dim> result;
         std::copy(l.begin(), l.end(), result.begin());
