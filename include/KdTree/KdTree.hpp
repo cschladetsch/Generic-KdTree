@@ -89,10 +89,9 @@ private:
         }
     }
 
-    template <typename T, size_t N>
-    constexpr array<T, N> array_from_initializer_list(initializer_list<T> l) {
+    constexpr array<Ty, Dim> array_from_initializer_list(initializer_list<Ty> l) {
         assert(l.size() == N);
-        array<T, N> result;
+        array<Ty, Dim> result;
         std::copy(l.begin(), l.end(), result.begin());
         return result;
     }

@@ -1,7 +1,5 @@
 .idea/
 .vs/
-*.filters
-*.user
 /Debug/
 /packages/
 /bin/
@@ -10,3 +8,9 @@
 /logs/
 /x64/
 /x32/
+
+/build/
+*.filters
+*.user
+*.bak
+*.swp
