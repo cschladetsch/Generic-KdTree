@@ -133,8 +133,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source\KdTree.cpp" />
-    <ClCompile Include="Source\Test.cpp" />
+    <ClCompile Include="tests\TestKdTree.cpp" />
+    <ClCompile Include="tests\TestMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\KdTree\KdTree.hpp" />
