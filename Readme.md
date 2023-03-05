@@ -8,13 +8,19 @@ A genertic implementation of an N-dimensional KDTree with any node type `Ty` tha
 
 *Note*: a single-header only C++17 library that requires no external dependancies or source files.
 
+## Building
+
+```bash
+$ mkdir -p build && cd build && cmake .. && ../bin/test
+```
+
 ## Use Cases
 
 Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty`. `Ty` must behave well with relational operators, such that A < B implies A != B and B > A. 
 
 ## Tests
 
-The tests live in the folder `tests` and use NUnit 3.
+The tests live in the folder `tests` and use Catch3.
 
 ## Todo
 
