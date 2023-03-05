@@ -4,7 +4,7 @@ christian.schladetsch@gmail.com
 
 ## Introduction
 
-A genertic implementation of an N-dimensional KDTree with any node type `Ty` that is a model of [StrictWeakOrdering](https://en.cppreference.com/w/cpp/concepts/strict_weak_order).
+A genertic implementation of an N-dimensional [KDTree](https://en.wikipedia.org/wiki/K-d_tree) with any node type `Ty` that is a model of [StrictWeakOrdering](https://en.cppreference.com/w/cpp/concepts/strict_weak_order).
 
 *Note*: a single-header only C++17 library that requires no external dependancies or source files.
 
