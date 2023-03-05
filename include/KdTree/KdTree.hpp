@@ -12,7 +12,7 @@ struct KDTree {
 
     struct Node {
         Tuple point;
-        Node *left, *right;
+        NodPtr left, right;
         Node(const Tuple& tuple)
             : point(tuple), left(0), right(0) { }
         Node(std::initializer_list<Ty> values)
