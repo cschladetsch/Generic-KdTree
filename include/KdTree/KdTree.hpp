@@ -4,8 +4,6 @@
 #include <assert.h>
 #include <type_traits>
 
-using namespace std;
-
 template <class Ty, int Dim>
 struct KDTree {
     struct Node;
@@ -91,9 +89,8 @@ private:
 
     constexpr array<Ty, Dim> array_from_initializer_list(initializer_list<Ty> l) {
         assert(l.size() == N);
-        array<Ty, Dim> result;
+        std::array<Ty, Dim> result;
         std::copy(l.begin(), l.end(), result.begin());
         return result;
     }
 };
-
