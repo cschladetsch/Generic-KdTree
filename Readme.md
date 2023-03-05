@@ -8,7 +8,7 @@ A genertic implementation of an N-dimensional KDTree with any node type that is 
 
 ## Use Cases
 
-Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty`. `Ty` must behave well with relational operators, such that A < B implies A != B and B >= A. 
+Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty`. `Ty` must behave well with relational operators, such that A < B implies A != B and/or B > A. 
 
 ## Tests
 
