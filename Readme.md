@@ -30,3 +30,4 @@ Always things to do, right?
 * There is no memory management. Just have to change KdTree<Ty,N>::NodePtr to be a std::shared_ptr<Node>.
 * Add `remove` method.
 * Add iteration over all Nodes.
+* Currently, all nodes are a tuple of N dimensions of the same type. This is not really a great restriction, even if it is the most practical.
