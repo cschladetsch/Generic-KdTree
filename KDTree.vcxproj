@@ -133,12 +133,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="tests\TestKdTree.cpp" />
-    <ClCompile Include="tests\TestMain.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="include\KdTree\KdTree.hpp" />
-    <ClInclude Include="Tests\catch.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
