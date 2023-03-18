@@ -16,7 +16,7 @@ $ mkdir -p build && cd build && cmake .. && ../bin/test
 
 ## Use Cases
 
-Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty0`... `TyB`. `Ty` must have `float opertor-` and `bool operator ==`. 
+Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty0`... `TyN`. `TyX` must have `float opertor-` and `bool operator ==`. 
 
 ## Tests
 
