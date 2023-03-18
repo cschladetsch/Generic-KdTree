@@ -16,11 +16,11 @@ $ mkdir -p build && cd build && cmake .. && ../bin/test
 
 ## Use Cases
 
-Any time you want to find a set of nearest neighbors in a set of N-dimensional points of arbitrary type `Ty0`... `TyN`. `TyX` must have `float operator-`.
+Any time you want to find a set of nearest neighbors in a set of N-dimensional points with ordinate type arbitrary type `Ty0`... `TyN`. `TyX` must have `float operator-`. That's only conceptual requirement.
 
 ## Tests
 
-The tests live in the folder `tests` and use Catch3.
+The tests live in the folder `tests` and use Catch3. Needs nor etests.
 
 ## Todo
 
