@@ -4,7 +4,7 @@ christian.schladetsch@gmail.com
 
 ## Introduction
 
-A generic implementation of an N-dimensional [KDTree](https://en.wikipedia.org/wiki/K-d_tree) with any node type `Q` that has ordinate of type `T0.. TN`, where each supports `float operator-(const Ty &a, const Ty &b)`
+A generic implementation of an N-dimensional [KDTree](https://en.wikipedia.org/wiki/K-d_tree) with any node type `Q` that has any number of ordinates of type `T0.. TN`, where each supports `float operator-(const Ty &a, const Ty &b)`
 
 *Note*: This a single-header only C++17 library that requires no external dependancies or source files.
 
