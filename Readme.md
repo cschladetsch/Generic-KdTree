@@ -4,9 +4,9 @@ christian.schladetsch@gmail.com
 
 ## Introduction
 
-A genertic implementation of an N-dimensional [KDTree](https://en.wikipedia.org/wiki/K-d_tree) with any node type `Ty` that is a model of [StrictWeakOrdering](https://en.cppreference.com/w/cpp/concepts/strict_weak_order).
+A genertic implementation of an N-dimensional [KDTree](https://en.wikipedia.org/wiki/K-d_tree) with any node type `Ty` that supports `float operator-(const Ty &a, const Ty &b)`
 
-*Note*: a single-header only C++17 library that requires no external dependancies or source files.
+*Note*: This a single-header only C++17 library that requires no external dependancies or source files.
 
 ## Building
 
